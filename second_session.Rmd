@@ -8,9 +8,9 @@ output: html_document
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
-created a sloppy graph
+created a simple graph
 ```{r}
-d <- read.csv(file= "/Users/sebastianstirnkorb/Desktop/titanic.csv", row.names=1)
+d <- read.csv(file="https://github.com/sstirnkorb/session2/blob/master/titanic.csv",row.names=1)
 head(d)
 summary(d)
 library(ggplot2)
